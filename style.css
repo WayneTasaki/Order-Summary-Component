@@ -7,17 +7,59 @@ body {
   background: url(/images/pattern-background-desktop.svg);
   background-color: hsl(225, 100%, 94%);
   background-repeat: no-repeat;
+  background-size: 100vw;
   font-family: 'Red Hat Display';
   font-weight: 500;
 }
 
+/* Main Content Box */
+
+.pagewrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.contentbox {
+  background-color: white;
+  width: 26rem;
+  border-radius: 18px;
+}
+
+/* Hero Image */
+
+.heroimg img {
+  width: 26rem;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
 /* Main Content */
 
+.maincontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: lightblue;
+  margin: 2rem 2rem;
+}
 
+.maincontent h1 {
+  font-size: 1.6rem;
+  /* padding-top: 1.4rem; */
+  color: hsl(223, 47%, 23%);
+}
 
-
-
-/* Attribution */
+.maincontent p {
+  font-size: 1rem;
+  text-align: center;
+  padding: .8rem;
+  color: #86889d;
+  font-weight: 400;
+}
+  /* Attribution */
 
 .attribution { 
   font-size: 11px; 
