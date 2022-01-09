@@ -42,7 +42,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: lightblue;
+  /* background: lightblue; */
   margin: 2rem 2rem;
 }
 
@@ -59,7 +59,47 @@ body {
   color: #86889d;
   font-weight: 400;
 }
-  /* Attribution */
+
+/* Plan Box */
+
+.planbox {
+  background: hsl(225, 100%, 98%);
+  display: flex;
+  align-items: center;
+  padding: 1.1rem 1.5rem;
+  border-radius: 10px;
+}
+
+.planbox img {
+  width: 45px;
+}
+
+.planbox a {
+  font-size: .8rem;
+}
+
+.plantext {
+  display: flex;
+  flex-direction: column;
+  /* background: lightblue; */
+  padding-left: 1.2rem;
+  padding-right: 5rem;
+}
+
+.plantext p {
+  padding: .1rem;
+  text-align: unset;
+}
+
+.plantext p:first-of-type {
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+  font-size: .98rem;
+}
+
+
+
+/* Attribution */
 
 .attribution { 
   font-size: 11px; 
