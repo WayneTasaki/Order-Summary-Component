@@ -42,13 +42,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background: lightblue; */
   margin: 2rem 2rem;
 }
 
 .maincontent h1 {
   font-size: 1.6rem;
-  /* padding-top: 1.4rem; */
   color: hsl(223, 47%, 23%);
 }
 
@@ -58,6 +56,7 @@ body {
   padding: .8rem;
   color: #86889d;
   font-weight: 400;
+  line-height: 1.5rem;
 }
 
 /* Plan Box */
@@ -68,6 +67,7 @@ body {
   align-items: center;
   padding: 1.1rem 1.5rem;
   border-radius: 10px;
+  margin-top: .5rem;
 }
 
 .planbox img {
@@ -76,12 +76,12 @@ body {
 
 .planbox a {
   font-size: .8rem;
+  font-weight: 600;
 }
 
 .plantext {
   display: flex;
   flex-direction: column;
-  /* background: lightblue; */
   padding-left: 1.2rem;
   padding-right: 5rem;
 }
@@ -97,6 +97,29 @@ body {
   font-size: .98rem;
 }
 
+button {
+  background: hsl(245, 75%, 52%);
+  color: white;
+  font-size: .9rem;
+  font-weight: 600;
+  border: none;
+  margin-top: 2rem;
+  padding: .9rem 5.8rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 33px -5px rgba(47,35,189,0.42); 
+  box-shadow: 0px 10px 33px -5px rgba(47,35,189,0.42);
+}
+
+.cancel {
+  text-decoration: none;
+  font-size: .9rem;
+  font-weight: 500;
+  color: #86889d;
+  margin-top: 1.8rem;
+  margin-bottom: .7rem;
+}
+
+ /* add line spacing on text and padding below */
 
 
 /* Attribution */
@@ -104,6 +127,7 @@ body {
 .attribution { 
   font-size: 11px; 
   text-align: center; 
+  padding-top: 1.5rem;
 }
 
 .attribution a { 
