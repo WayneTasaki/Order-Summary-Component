@@ -154,7 +154,11 @@ button:hover {
  @media (max-width: 800px) {
 
    body {
-     background: hsl(225, 100%, 94%);
+     background: url(images/pattern-background-mobile.svg);
+     background-repeat: no-repeat;
+     background-size: 100vw;
+     background-color: hsl(225, 100%, 94%);
+
    }
 
    .contentbox {
