@@ -151,11 +151,57 @@ button:hover {
 
  /* Mobile */
 
- @media (max-width: 900px) {
+ @media (max-width: 800px) {
 
    body {
      background: hsl(225, 100%, 94%);
    }
 
+   .contentbox {
+     width: 20rem;
+     margin-top: 1rem;
+   }
+
+   .heroimg img {
+     width: 20rem;
+   }
+
+   .maincontent {
+     margin: .2rem;
+   }
+
+   .maincontent h1 {
+    font-size: 1.3rem;
+    padding-top: 1.3rem;
+  }
+  
+  .maincontent p {
+    width: 16rem;
+  }
+
+  .planbox {
+    width: 15rem;
+    padding: 1rem 1rem;
+  }
+
+  .plantext {
+    width: 2.8rem;
+  }
+
+  .plantext p, .plantext p:first-of-type {
+    font-size: .9rem;
+    padding: 0;
+  }
+
+  button {
+    margin-top: 1.5rem;
+    padding: 1rem 4rem;
+  }
+
+  .cancel {
+    font-size: .93rem;
+    margin-top: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
    
  }
