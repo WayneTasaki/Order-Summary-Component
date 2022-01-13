@@ -74,9 +74,17 @@ body {
   width: 45px;
 }
 
-.planbox a {
+.planbox a, .planbox a:visited {
   font-size: .8rem;
   font-weight: 600;
+  color: hsl(245, 75%, 52%)
+}
+
+.planbox a:hover {
+  font-size: .8rem;
+  font-weight: 600;
+  color: #766cf1;
+  text-decoration: none;
 }
 
 .plantext {
@@ -110,16 +118,23 @@ button {
   box-shadow: 0px 10px 33px -5px rgba(47,35,189,0.42);
 }
 
+button:hover {
+  background: #766cf1;
+  cursor: pointer;
+}
+
 .cancel {
   text-decoration: none;
-  font-size: .9rem;
-  font-weight: 500;
+  font-size: .8rem;
+  font-weight: 600;
   color: #86889d;
   margin-top: 1.8rem;
   margin-bottom: .7rem;
 }
 
- /* add line spacing on text and padding below */
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
 
 
 /* Attribution */
@@ -132,4 +147,15 @@ button {
 
 .attribution a { 
   color: hsl(228, 45%, 44%);
+ }
+
+ /* Mobile */
+
+ @media (max-width: 900px) {
+
+   body {
+     background: hsl(225, 100%, 94%);
+   }
+
+   
  }
