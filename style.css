@@ -95,12 +95,12 @@ body {
   padding-right: 5rem;
 }
 
-.plantext p {
+.plantext h1, .plantext p {
   padding: .1rem;
   text-align: unset;
 }
 
-.plantext p:first-of-type {
+.plantext h1 {
   font-weight: 700;
   color: hsl(223, 47%, 23%);
   font-size: .98rem;
@@ -150,6 +150,10 @@ button:hover {
   color: hsl(228, 45%, 44%);
  }
 
+ .attribution a:hover { 
+  color: rgba(47,35,189,0.42);
+ }
+
  /* Mobile */
 
  @media (max-width: 800px) {
@@ -190,10 +194,11 @@ button:hover {
   }
 
   .plantext {
-    width: 2.8rem;
+    width: 6rem;
+    padding-right: 2rem;
   }
 
-  .plantext p, .plantext p:first-of-type {
+  .plantext h1 {
     font-size: .9rem;
     padding: 0;
   }
